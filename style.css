@@ -1,0 +1,145 @@
+body {
+      font: 12px/18px "Times New Roman", sans-serif;
+	background-image: url("http://qaaz.nl/cor.jpg");
+  background-size: cover;
+  }
+
+#contactformdiv {
+  display: block;
+  width: 700px;
+  margin:auto;
+  margin-bottom: 5px;
+  outline-style: ridge;
+  outline-width: 4px;
+  outline-color: lightgrey;
+	background: #fffff7;
+	overflow: auto;
+  text-align: center;
+  }
+
+h1 {
+  font-family: "Arial Black", "Arial Bold", sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+  text-align: center;
+  }
+
+
+a {
+  color: #0068D2;
+  cursor: pointer;
+  }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #0068D2;
+  }
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: #0068D2;
+  }
+
+#contacts-table {
+  font-family: "Times New  Roman", serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  margin:auto;
+  margin-top: 10px;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: lightgrey;
+  box-shadow: 4px 4px 2px black;
+  border-collapse: collapse;
+  }
+
+#contacts-table, #contacts-table th, #contacts-table td {
+  padding: 8px 16px;
+  text-align: left;
+  border-bottom: 1px solid #726E9A;
+  }
+
+#contacts-table th {
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 14px; color: #29344B;
+  }
+#contacts-table td {
+  color: #000;
+  }
+
+#contacts-table tr {
+  background: #fffff7;
+  }
+
+#contacts-form {
+  padding: 10px;
+  margin-left: 30px;
+  }
+
+.text input {
+  padding: 5px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+
+.button input {
+  padding: 5px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+#contacts-form .item {
+  margin: 3px 0;
+  }
+
+#contacts-form label, #contacts-form .field {
+  display: inline-block;
+  color: #0C0B07;
+  }
+
+#contacts-form label {
+  ont-family: Bitter;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 30px;
+  width: 110px;
+  text-align: right;
+  color: #666; }
+
+#contacts-form .text input {
+  width: 176px;
+  padding: 3px;
+  }
+
+#contacts-form .button {
+  display: inline-block;
+  }
+
+#contacts-form .button-wrapper {
+  padding-left: 113px;
+  }
+
+.button input {
+  padding: 4px 8px;
+  color: #343434;
+  background-color: #fdfdfd;
+  }
+
+.button-default input {
+  width: 140px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #7ca0c7;
+  }

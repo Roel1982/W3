@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Adresboek CodeGorilla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <style>  {
+        font-size: 62.5%;
+    } </style>
+
+  <div id="contactformdiv">
+  <h1>Adresboek CodeGorilla</h1>
+	<form id="contacts-form">
+		<div class="item text">
+			<label>Voornaam:</label>
+			<div class="field"><input type="text" name="first_name" /></div>
+		</div>
+		<div class="item text">
+			<label>Achternaam:</label>
+			<div class="field"><input type="text" name="last_name" /></div>
+		</div>
+		<div class="item text">
+			<label>E-mail:</label>
+			<div class="field"><input type="text" name="email" /></div>
+		</div>
+    <div class="item text">
+      <label>Adres:</label>
+			<div class="field"><input type="text" name="address" /></div>
+		</div>
+		<div class="button-wrapper">
+			<div class="item button">
+				<div class="field"><input type="button" id="contacts-op-discard" value="Wis" /></div>
+			</div>
+			<div class="item button button-default">
+				<div class="field"><input type="submit" id="contacts-op-save" value="Toevoegen" /></div>
+			</div>
+      <div class="item button">
+				<div class="field"><input type="button" id="contact-op-search" value="Zoeken" /></div>
+			</div>
+		</div>
+    </div>
+		<input type="hidden" name="id_entry" value="0" />
+	</form>
+
+
+  <table id="contacts-table">
+		<tr id="contacts-head">
+			<th>Nr.</th>
+			<th>Voornaam</th>
+			<th>Achternaam</th>
+			<th>E-mail</th>
+      <th>Adres</th>
+			<th>       </th>
+		</tr>
+	</table>
+
+
+
+
+</body>
+</html>
